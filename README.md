@@ -16,3 +16,6 @@ var app = ApiApplication.Create();
 
 app.Run();
 ```
+
+- Add apis by creating normal controllers but inherit from IruddApiController instead of BaseController.
+- You don't need the [ApiController] decoration since that is included on IruddApiController.
