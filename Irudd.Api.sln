@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Irudd.Api", "Irudd.Api\Irudd.Api.csproj", "{D6403415-CD0B-4F1C-8B10-4864AAF20391}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Irudd.Api.Example", "Irudd.Api.Example\Irudd.Api.Example.csproj", "{1F8D1E11-3932-4960-B135-B73D864CEE46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Irudd.Api.Tests", "Irudd.Api.Tests\Irudd.Api.Tests.csproj", "{2E4CA84A-F84D-4573-9091-ECF6E1673F04}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6403415-CD0B-4F1C-8B10-4864AAF20391}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6403415-CD0B-4F1C-8B10-4864AAF20391}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6403415-CD0B-4F1C-8B10-4864AAF20391}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6403415-CD0B-4F1C-8B10-4864AAF20391}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F8D1E11-3932-4960-B135-B73D864CEE46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F8D1E11-3932-4960-B135-B73D864CEE46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F8D1E11-3932-4960-B135-B73D864CEE46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F8D1E11-3932-4960-B135-B73D864CEE46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E4CA84A-F84D-4573-9091-ECF6E1673F04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E4CA84A-F84D-4573-9091-ECF6E1673F04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E4CA84A-F84D-4573-9091-ECF6E1673F04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E4CA84A-F84D-4573-9091-ECF6E1673F04}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
