@@ -2,9 +2,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Irudd.Api.Example.Controllers;
 
-[ApiController]
 [Route("[controller]")]
-public class WeatherForecastController : ControllerBase
+public class WeatherForecastController : IruddApiController
 {
     private static readonly string[] Summaries = new[]
     {
@@ -17,7 +16,11 @@ public class WeatherForecastController : ControllerBase
     {
         _logger = logger;
     }
-
+    
+    /// <summary>
+    /// Some docs
+    /// </summary>
+    /// <returns></returns>
     [HttpGet(Name = "GetWeatherForecast")]
     public IEnumerable<WeatherForecast> Get()
     {
